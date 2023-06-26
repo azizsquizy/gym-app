@@ -1,0 +1,68 @@
+.section {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.scroll-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  scroll-behavior: smooth;
+  padding: 10px;
+  margin: 20px 40px;
+  /* Hide the scrollbar */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  overflow-x: scroll;
+  /* Add some space at the bottom for the switchers */
+}
+
+/* Hide the scrollbar for WebKit browsers (Chrome, Safari) */
+.scroll-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-item {
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.card img {
+  width: 50px;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+.card {
+  padding:  80px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #fff;
+}
+
+.switchers {
+  margin: 20px 50px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.switchers img {
+  width: 30px;
+  cursor: pointer;
+}
+
+/* Styles for arrow icons */
+.arrow-left,
+.arrow-right {
+  /* Add styles for arrow icons as per your requirements */
+}

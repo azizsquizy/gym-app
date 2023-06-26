@@ -1,0 +1,22 @@
+.navbar{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    align-items: flex-end;
+}
+.links{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.link{
+    text-decoration: none;
+    color: var(--text);
+    font-size: 18px;
+}
+.link:hover{
+    color: var(--primary-button);
+}
+

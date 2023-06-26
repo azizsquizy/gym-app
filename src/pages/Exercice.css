@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.ex-img{
+   width: 50%;
+}
+.ex-info{
+    width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start;
+    gap: 20px;    
+}
+.ex-info h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.info-item{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.info-item img{
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 30px;
+    
+}
+
+.ex-info p{
+    font-size: 20px;
+    line-height: 60px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.ex-img img{
+    width: 70%;
+    height: 100%;
+    flex: 1;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.exercise-page{
+    width: 100%;
+}

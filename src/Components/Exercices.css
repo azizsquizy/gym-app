@@ -1,0 +1,46 @@
+.exercices{
+    padding: 2rem 4rem;
+    margin: 2rem 4rem;
+}
+.exercices h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.exercises-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.info p{
+    
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--primary-button);
+    color: #fff;
+    
+}
+.ex-card{
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    gap: 20px;
+}
+.ex-card:hover{
+    transform: scale(1.1);
+}
